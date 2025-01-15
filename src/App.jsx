@@ -6,7 +6,7 @@ import logo from './assets/logo_tflp.png'
 import background from "./assets/background.jpg";
 
 
-const navigation = [{name: 'home', href: 'home'}, {name: 'Blog', href: 'blog'}]
+const navigation = [{ name: 'home', href: 'home' }, { name: 'Blog', href: 'blog' }]
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
+        {/* nav bar */}
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
@@ -48,6 +49,7 @@ function App() {
             </a>
           </div>
         </nav>
+        {/* foldout sidebar */}
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -98,25 +100,23 @@ function App() {
 
       <div>
 
-      <div className="relative isolate pt-14 lg:px-8">
-        <img className='relative ' src={background} />
-        {/* <img src={} /> */}
-        <div
-          aria-hidden="true"
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        >
-          {/* <Text >
-           The Feral Land Project
-          </Text> */}
+        <div className="relative isolate pt-14 lg:px-8">
+          <img className='relative ' src={background} />
+          {/* <img src={} /> */}
+          <div
+            aria-hidden="true"
+            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          >
+            <h2 className='font-sans bg-red-950 z-20'>The Feral Land Project</h2>
+          </div>
         </div>
-      </div>
 
-      {/* second section */}
-      <div className="text-center">
-        <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-        We strive to repurpose, steward or rewild feral lands, waste sites and over paved places into hospitable environments where life will thrive.
-        </p>
-      </div>
+        {/* second section */}
+        <div className="text-center">
+          <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+            We strive to repurpose, steward or rewild feral lands, waste sites and over paved places into hospitable environments where life will thrive.
+          </p>
+        </div>
 
       </div>
 
