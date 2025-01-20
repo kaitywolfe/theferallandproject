@@ -1,7 +1,7 @@
 {
   "name": "theferallandproject",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://andrewjc88.github.io/theferallandproject/",
   "type": "module",
   "scripts": {
@@ -19,7 +19,8 @@
     "heroicons": "^2.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-error-boundary": "^5.0.0"
+    "react-error-boundary": "^5.0.0",
+    "react-router-dom": "^7.1.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
