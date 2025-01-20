@@ -1,4 +1,3 @@
-
 import logo from './assets/logo_tflp.png';
 
 function App() {
@@ -7,16 +6,25 @@ function App() {
 
       {/* First section */}
       <div className="flex bg-[url('./assets/background.jpg')] max-h-3.5 justify-end bg-no-repeat bg-cover min-h-screen">
-        <p className='text-white align-bottom drop-shadow-lg m-0 '>
-          The Feral Land Project is a tax exempt 501(c)(3) nonprofit organization
-        </p>
+        <div className=''>
+          <div className=''>
+            <h1 className='text-white font-mutlu text-6xl drop-shadow-2xl shadow-black'>
+              <h1>The</h1>
+              <h1>Feral Land</h1>
+              <h1>Project</h1>
+            </h1>
+          </div>
+          <p className='text-white justify-end align-bottom drop-shadow-lg m-0 '>
+            The Feral Land Project is a tax exempt 501(c)(3) nonprofit organization
+          </p>
+        </div>
         <div className='flex bg-transparent w-10 h-auto
               border-t-[400px] border-t-transparent
               border-r-[50px] border-r-black
               border-b-[400px] border-b-transparent'
         ></div>
         <div aria-hidden="true" className='bg-black w-1/3 flex flex-col justify-between pt-16 pb-6 pr-6'>
-          <img className='w-44 mx-auto bg-white' src={logo} />
+          <img className='w-44 mx-auto bg-white' src={logo} alt="The Feral Land Project Logo" />
           <p className='text-white text-lg text-right font-light text tracking-wide '>
             The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project
             is to charitably provide communities, institutions and
