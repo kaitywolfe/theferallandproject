@@ -2,7 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: "/theferallandproject/",
+export default defineConfig(({ mode }) => {
+  return {
+    plugins: [react()],
+    base: mode === 'production' ? '/theferallandproject/' : '/'
+    // base: mode === 'production' ? '/theferallandproject/' : '/'
+  };
 })
