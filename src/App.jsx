@@ -1,13 +1,17 @@
+import logo from './assets/logo.png';
+
 function App() {
   return (
     <div className="bg-black min-h-lvh">
       <div className="flex justify-center items-center bg-[url('./assets/background.jpg')] min-h-svh bg-no-repeat bg-cover">
         <div className=''>
+
           <div className='flex flex-col px-16 py-10 bg-slate-950 rounded-lg w-[400px] m-auto text-white font-mutlu text-6xl'>
-            <h1 className='pl-3 text-5xl'>The</h1>
+            {/* <h1 className='pl-3 text-5xl'>The</h1>
             <h1>Feral Land</h1>
-            <h1 className='pl-4 pt-4'>Project</h1>
-            <h1 className="pt-4 text-4xl font-semibold font-sans">Coming Soon!</h1>
+            <h1 className='pl-4 pt-4'>Project</h1> */}
+            <img className='w-44 mx-auto ' src={logo} alt="The Feral Land Project Logo" />
+            <h1 className="text-center pt-4 text-4xl font-semibold font-sans">Coming Soon!</h1>
           </div>
         </div>
       </div>
