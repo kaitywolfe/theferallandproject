@@ -60,12 +60,6 @@ function App() {
 
       {/* third section */}
       <div className="relative bg-black text-white py-16">
-        {/* Top triangle */}
-        <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
-          <svg className="relative block w-full h-[50px]" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill="black" points="0,100 100,0 100,100" />
-          </svg>
-        </div>
 
         {/* Content */}
         <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-6">
@@ -88,13 +82,6 @@ function App() {
           <h2 className="text-2xl font-semibold mb-4">Reviving the Forgotten, Restoring the Wild</h2>
           <div className="w-4/5 mx-auto h-1 bg-white mb-4"></div>
           <p className="text-base leading-6">We are actively adding new projects and details to this site. Please check back soon!</p>
-        </div>
-
-        {/* Bottom triangle */}
-        <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] rotate-180">
-          <svg className="relative block w-full h-[50px]" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill="black" points="0,100 100,0 100,100" />
-          </svg>
         </div>
       </div>
 
