@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .clip-right {
+    clip-path: polygon(38% 0, 89% 0, 100% 100%, 54% 100%);
+  }
+
+  .clip-arrows {
+    clip-path: polygon(50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
+  }
+}
+
 @font-face {
   font-family: 'mutlu';
   src: local('mutlu'), url(./assets/Mutlu__Ornamental-webfont.woff) format('woff');
