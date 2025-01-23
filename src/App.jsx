@@ -2,7 +2,7 @@ import logo from './assets/logo.png';
 
 function App() {
   return (
-    <div className="bg-black min-h-lvh">
+    <div className="bg-black min-h-lvh max-w-[100vw]">
 
       {/* First section */}
       <div className="flex bg-[url('./assets/background.jpg')] max-h-[720px] min-h-[720px] bg-no-repeat bg-cover">
@@ -41,7 +41,7 @@ function App() {
           <p className='text-white w-1/3 my-auto text-2xl ml-10 font-light text leading-6 tracking-wide '>
             The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
           </p>
-          <h1 className='mt-24 mr-24  text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
+          <h1 className='mt-24 mr-40 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
             Our Vision
           </h1>
         </div >
@@ -55,7 +55,7 @@ function App() {
             Our Vision
           </h1>
         </div >
-        <div className='flex max-h-96 min-h-96 bg-[url("./assets/background-3.jpg")] bg-black text-white bg-cover bg-center bg-no-repeat' />
+        <div className='flex clip-up max-h-96 min-h-96 bg-[url("./assets/background-3.jpg")] bg-black text-white bg-cover bg-center bg-no-repeat' />
       </div>
 
       {/* third section */}
@@ -99,7 +99,7 @@ function App() {
       </div>
 
       {/* last image */}
-      <div className='flex max-h-[320px] min-h-[320px] clip-arrows bg-[url("./assets/background-4.jpg")] bg-cover bg-no-repeat bg-center' />
+      <div className='flex max-h-[400px] min-h-[320px] clip-arrows bg-[url("./assets/background-4.jpg")] bg-cover bg-no-repeat bg-center' />
 
       {/* Footer */}
       <footer className="bg-black text-white py-8">
