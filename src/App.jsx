@@ -37,22 +37,22 @@ function App() {
 
       {/* second section */}
       <div className='flex flex-col relative bg-black'>
-        <div className='flex h-full justify-between absolute z-10 bg-black bg-opacity-20'>
-          <p className='text-white w-1/3 my-auto text-2xl ml-10 font-light text leading-6 tracking-wide '>
-            The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
-          </p>
-          <h1 className='mt-24 mr-40 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
+        <div className='flex flex-col md:flex-row-reverse h-full justify-between absolute z-10 bg-black bg-opacity-20'>
+          <h1 className='mt-24 mr-40 mb-44 pl-20 md:pl-0 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
             Our Vision
           </h1>
+          <p className='text-white pt-12 md:pt-0 w-full h-full md:h-fit md:w-1/3 my-auto bg-black text-lg md:text-2xl md:ml-10 font-light text leading-6 tracking-wide '>
+            The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
+          </p>
         </div >
-        <div className='flex max-h-[720px] min-h-[720px] clip-right bg-[url("./assets/background-2.jpg")] bg-black text-white bg-cover bg-no-repeat' />
+        <div className='flex min-h-[500px] max-h-[500px] md:max-h-[720px] md:min-h-[720px] md:clip-right bg-[url("./assets/background-2.jpg")] bg-black text-white bg-cover bg-no-repeat' />
       </div>
 
-      {/* second section */}
+      {/* third section */}
       <div className='flex max-h-96 flex-col relative bg-black'>
         <div className='flex h-full w-full justify-between absolute z-10 bg-black bg-opacity-10'>
           <h1 className='mt-16 ml-20 text-white font-mutlu text-7xl drop-shadow-[0px_0px_20px_#000]'>
-            Our Vision
+            Our Values
           </h1>
         </div >
         <div className='flex clip-up max-h-96 min-h-96 bg-[url("./assets/background-3.jpg")] bg-black text-white bg-cover bg-center bg-no-repeat' />
