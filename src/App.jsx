@@ -41,7 +41,7 @@ function App() {
           <h1 className='mt-24 mr-40 mb-44 pl-20 md:pl-0 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
             Our Vision
           </h1>
-          <p className='text-white pt-12 md:pt-0 w-full h-full md:h-fit md:w-1/3 my-auto bg-black text-lg md:text-2xl md:ml-10 font-light text leading-6 tracking-wide '>
+          <p className='text-white py-10 md:p-0 md:pt-0 text-center md:text-left w-full h-full md:h-fit md:w-1/3 my-auto bg-black text-lg md:text-2xl md:ml-10 font-light text leading-6 tracking-wide '>
             The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
           </p>
         </div >
