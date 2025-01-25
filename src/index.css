@@ -8,11 +8,15 @@
   }
 
   .clip-arrows {
-    clip-path: polygon(50% 20%, 100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
   }
 
   .clip-up {
     clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
+  }
+
+  .clip-arrow-left {
+    clip-path: polygon(65% 0, 60% 50%, 65% 100%, 0 100%, 0 0);
   }
 }
 
