@@ -16,15 +16,15 @@ function App() {
                 <h1>Feral Land</h1>
                 <h1 className='pl-4 pt-4'>Project</h1>
               </div>
-              <p className='ml-10  text-white justify-end align-bottom drop-shadow-[2px_2px_2px_#000] m-0'>
-                The Feral Land Project is a tax exempt 501(c)(3) nonprofit organization
+              <p className='text-center  text-white justify-end align-bottom drop-shadow-[2px_2px_2px_#000] m-0'>
+                The Feral Land Project is a tax-exempt 501(c)(3) nonprofit organization
               </p>
             </div>
 
             <div className='flex flex-col h-full justify-between w-full md:w-1/3 '>
               <img className='w-44 mx-auto mt-16 drop-shadow-[15px_15px_15px_#000] ' src={logo} alt="The Feral Land Project Logo" />
               <p className='text-center md:hidden text-white drop-shadow-[2px_2px_6px_#000]'>
-                The Feral Land Project is a tax exempt 501(c)(3) nonprofit organization
+                The Feral Land Project is a tax-exempt 501(c)(3) nonprofit organization
               </p>
               <p className='text-white px-10 md:px-0 md:pr-10 text-lg text-center md:text-right font-light text leading-6 tracking-wide '>
                 The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project
