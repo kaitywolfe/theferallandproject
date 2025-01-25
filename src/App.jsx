@@ -22,20 +22,16 @@ function App() {
             </div>
 
             <div className='flex flex-col h-full justify-between w-full md:w-1/3 '>
-              <div className='mx-auto mt-16 relative w-44 h-44'>
+              <div className='mx-auto mt-14 relative w-44 h-44'>
                 <img className='w-44 h-44 absolute z-10' src={logo} alt="The Feral Land Project Logo" />
                 <div className=' w-44 h-44 absolute rounded-full bg-black blur-lg opacity-60' />
               </div>
               <p className='text-center z-10 md:hidden text-white drop-shadow-[0px_0px_3px_#000]'>
                 The Feral Land Project is a tax-exempt 501(c)(3) nonprofit organization
               </p>
-              <p className='text-white px-1 sm:px-10 md:px-0 md:pr-10 text-balance md:text-lg text-center md:text-right font-light text md:leading-6 md:tracking-wide '>
-                The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project
-                is to charitably provide communities, institutions and
-                wildlife with gardens, parks, green spaces, habitats and
-                safe passageways. We strive to repurpose, steward or rewild
-                feral lands, waste sites and over-paved places into
-                hospitable environments where life will thrive.</p>
+              <p className='text-white px-1 leading-5 sm:px-10 md:px-0 md:pr-10 text-balance md:text-lg text-center md:text-right font-light text md:leading-6 md:tracking-wide '>
+                The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project is to charitably provide communities, institutions and wildlife with gardens, parks, green spaces, habitats and safe passageways. We strive to repurpose, steward or rewild feral lands, waste sites and over-paved places into hospitable environments where life will thrive.
+              </p>
               <h2 className='text-white font-semibold text-center md:pr-10 md:text-right tracking-wide'>
                 Reviving&nbsp;the&nbsp;Forgotten, Restoring&nbsp;the&nbsp;Wild
               </h2>
