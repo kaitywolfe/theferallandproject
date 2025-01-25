@@ -11,12 +11,12 @@ function App() {
           <div className='absolute flex flex-col md:flex-row h-full z-10 bg-black bg-opacity-20'>
 
             <div className='w-full hidden md:flex md:h-full md:w-2/3 flex-col justify-between'>
-              <div className='my-auto ml-20 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
+              <div className='my-auto tracking-wider ml-20 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
                 <h1 className='pl-3 text-5xl'>The</h1>
                 <h1>Feral Land</h1>
                 <h1 className='pl-4 pt-4'>Project</h1>
               </div>
-              <p className='text-center  text-white justify-end align-bottom drop-shadow-[0px_0px_5px_#000] m-0'>
+              <p className='text-center text-white justify-end align-bottom drop-shadow-[0px_0px_5px_#000]'>
                 The Feral Land Project is a tax-exempt 501(c)(3) nonprofit organization
               </p>
             </div>
@@ -49,7 +49,7 @@ function App() {
         {/* second section */}
         <div className='flex flex-col relative bg-black'>
           <div className='flex flex-col md:flex-row-reverse h-full justify-between absolute z-10 bg-black bg-opacity-20'>
-            <h1 className='mt-24 md:mr-40 mb-44 pl-20 md:pl-0 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
+            <h1 className='mt-24 md:mr-40 tracking-wide mb-44 mx-auto md:pl-0 text-white font-mutlu text-6xl drop-shadow-[0px_0px_25px_#000]'>
               Our Vision
             </h1>
             <p className='text-white py-10 md:p-0 md:pt-0 text-center md:text-left w-full h-full md:h-fit md:w-1/3 my-auto bg-black text-lg md:leading-7 md:text-2xl md:ml-10 font-light tracking-wide'>
@@ -62,7 +62,7 @@ function App() {
         {/* third section */}
         <div className='flex max-h-96 flex-col relative bg-black'>
           <div className='flex h-full w-full justify-between absolute z-10 bg-black bg-opacity-10'>
-            <h1 className='mt-16  w-full ml-20 text-white font-mutlu text-6xl drop-shadow-[0px_0px_20px_#000]'>
+            <h1 className='mt-16 mx-auto w-full text-center md:text-left md:pl-20 text-white font-mutlu tracking-wide text-6xl drop-shadow-[0px_0px_25px_#000]'>
               Our Values
             </h1>
           </div >
@@ -97,7 +97,7 @@ function App() {
         </div>
 
         {/* fifth */}
-        <div className='flex max-h-[400px] min-h-[320px] clip-arrows sepia-[30%] bg-[url("./assets/background-4.jpg")] bg-cover bg-no-repeat bg-center' />
+        <div className='flex max-h-[400px] min-h-[320px] clip-arrows sepia-[30%] bg-[url("./assets/background-4.jpg")] bg-cover bg-no-repeat bg-bottom' />
 
         {/* Footer */}
         <footer className="bg-black text-white pt-8 pb-4">
