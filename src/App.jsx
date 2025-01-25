@@ -22,18 +22,18 @@ function App() {
             </div>
 
             <div className='flex flex-col h-full justify-between w-full md:w-1/3 '>
-              <img className='w-44 mx-auto mt-16 drop-shadow-[15px_15px_15px_#000] ' src={logo} alt="The Feral Land Project Logo" />
-              <p className='text-center md:hidden text-white drop-shadow-[2px_2px_6px_#000]'>
+              <img className='w-44 mx-auto mt-16 drop-shadow-[0px_0px_10px_#000] ' src={logo} alt="The Feral Land Project Logo" />
+              <p className='text-center md:hidden text-white drop-shadow-[0px_0px_7px_#000]'>
                 The Feral Land Project is a tax-exempt 501(c)(3) nonprofit organization
               </p>
-              <p className='text-white px-10 md:px-0 md:pr-10 text-lg text-center md:text-right font-light text leading-6 tracking-wide '>
+              <p className='text-white px-1 sm:px-10 md:px-0 md:pr-10 text-base md:text-lg text-center md:text-right font-light text leading-6 tracking-wide '>
                 The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project
                 is to charitably provide communities, institutions and
                 wildlife with gardens, parks, green spaces, habitats and
                 safe passageways. We strive to repurpose, steward or rewild
                 feral lands, waste sites and over-paved places into
                 hospitable environments where life will thrive.</p>
-              <h2 className='text-white font-semibold text-center md:pr-10 md:text-right '>
+              <h2 className='text-white font-semibold text-center md:pr-10 md:text-right tracking-wide'>
                 Reviving&nbsp;the&nbsp;Forgotten, Restoring&nbsp;the&nbsp;Wild
               </h2>
             </div>
