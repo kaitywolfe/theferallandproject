@@ -112,7 +112,7 @@ function App() {
               </div>
             </div>
             <h2 className="text-center text-lg font-light mt-8">
-              The Feral Land Project is a tax exempt 501(c)(3) nonprofit organization
+              The Feral Land Project is a tax-exempt 501(c)(3) nonprofit organization
             </h2>
           </div>
         </footer>
