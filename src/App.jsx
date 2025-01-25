@@ -87,8 +87,8 @@ function App() {
           </div>
 
           <div className="w-full text-center pt-12">
-            <h2 className="text-2xl font-semibold mb-4">Reviving the Forgotten, Restoring the Wild</h2>
-            <div className="w-4/5 mx-auto h-0.5 bg-white mb-4"></div>
+            <h2 className="text-2xl font-semibold ">Reviving the Forgotten, Restoring the Wild</h2>
+            <div className="w-4/5 mx-auto h-0.5 bg-white my-2"></div>
             <p className="text-base leading-6">We are actively adding new projects and details to this site. Please check back soon!</p>
           </div>
         </div>
