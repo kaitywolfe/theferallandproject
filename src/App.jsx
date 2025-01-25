@@ -46,7 +46,7 @@ function App() {
         {/* second section */}
         <div className='flex flex-col relative bg-black'>
           <div className='flex flex-col md:flex-row-reverse h-full justify-between absolute z-10 bg-black bg-opacity-20'>
-            <h1 className='mt-24 mr-40 mb-44 pl-20 md:pl-0 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
+            <h1 className='mt-24 md:mr-40 mb-44 pl-20 md:pl-0 text-white font-mutlu text-6xl drop-shadow-[15px_15px_15px_#000]'>
               Our Vision
             </h1>
             <p className='text-white py-10 md:p-0 md:pt-0 text-center md:text-left w-full h-full md:h-fit md:w-1/3 my-auto bg-black text-lg md:leading-7 md:text-2xl md:ml-10 font-light tracking-wide'>
@@ -59,7 +59,7 @@ function App() {
         {/* third section */}
         <div className='flex max-h-96 flex-col relative bg-black'>
           <div className='flex h-full w-full justify-between absolute z-10 bg-black bg-opacity-10'>
-            <h1 className='mt-16 ml-20 text-white font-mutlu text-7xl drop-shadow-[0px_0px_20px_#000]'>
+            <h1 className='mt-16  w-full ml-20 text-white font-mutlu text-7xl drop-shadow-[0px_0px_20px_#000]'>
               Our Values
             </h1>
           </div >
