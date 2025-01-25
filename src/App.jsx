@@ -40,7 +40,7 @@ function App() {
 
           </div>
 
-          <div className="absolute w-full min-h-[300px] md:max-h-[720px] md:min-h-[720px] sepia-[30%] md:clip-arrow-left bg-[url('./assets/background.jpg')]  bg-no-repeat bg-cover bg-center" />
+          <div className="absolute blur-[0.5px] w-full min-h-[300px] md:max-h-[720px] md:min-h-[720px] sepia-[30%] md:clip-arrow-left bg-[url('./assets/background.jpg')]  bg-no-repeat bg-cover bg-center" />
         </div>
 
         {/* second section */}
