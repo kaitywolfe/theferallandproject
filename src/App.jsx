@@ -97,7 +97,7 @@ function App() {
         <div className='flex max-h-[400px] min-h-[320px] clip-arrows sepia-[30%] bg-[url("./assets/background-4.jpg")] bg-cover bg-no-repeat bg-center' />
 
         {/* Footer */}
-        <footer className="bg-black text-white py-8">
+        <footer className="bg-black text-white pt-8 pb-4">
           <div className="container mx-auto px-6 md:px-12 lg:px-24">
 
             <div className="flex flex-col items-center justify-between space-y-4 md:space-y-0">
