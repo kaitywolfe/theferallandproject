@@ -28,3 +28,20 @@
 .font-mutlu {
   font-family: 'mutlu', sans-serif;
 }
+
+@font-face {
+  font-family: 'fjalla';
+  src: local('fjalla'), url(./assets/FjallaOne-Regular.ttf) format('truetype');
+}
+
+.fjalla-one-regular {
+  font-family: "fjalla", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pochaevsk-regular {
+  font-family: "Pochaevsk", serif;
+  font-weight: 400;
+  font-style: normal;
+}
