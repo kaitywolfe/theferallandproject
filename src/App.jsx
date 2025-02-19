@@ -22,7 +22,7 @@ function App() {
               <div className='mx-auto  relative w-44 h-44'>
                 <img className='w-44 h-44 absolute z-10' src={logo} alt="The Feral Land Project Logo" />
               </div>
-              <p className='text-black px-1 leading-5 sm:px-10 md:px-0 md:pr-10 text-balance md:text-lg text-center md:text-right font-light text md:leading-6 md:tracking-wide '>
+              <p className='text-black px-1 mt-20 leading-5 sm:px-10 md:px-0 md:pr-10 text-balance md:text-lg text-center md:text-right'>
                 The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project is to charitably provide communities, institutions and wildlife with gardens, parks, green spaces, habitats and safe passageways. We strive to repurpose, steward or rewild feral lands, waste sites and over-paved places into hospitable environments where life will thrive.
               </p>
             </div>
@@ -38,7 +38,7 @@ function App() {
             <h1 className='mt-24 md:mr-40 tracking-wide mb-44 mx-auto md:pl-0 text-white font-fjalla text-6xl drop-shadow-[0px_0px_25px_#000]'>
               Our Vision
             </h1>
-            <p className='py-10 px-2 md:p-0 md:pt-0 text-center md:text-left w-full h-full md:h-fit md:w-1/3 my-auto bg-white text-lg md:text-2xl md:ml-10 font-light'>
+            <p className='py-10 px-2 md:p-0 md:pt-0 text-center md:text-left w-full h-full md:h-fit text-balance md:w-1/3 my-auto bg-white text-lg md:text-2xl md:ml-10 font-light'>
               The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
             </p>
           </div >
