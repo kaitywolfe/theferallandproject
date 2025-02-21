@@ -10,13 +10,11 @@ function App() {
 
           <div className='absolute flex flex-col md:flex-row h-full z-10 bg-white bg-opacity-20 justify-end'>
 
-            {/* <div className='w-full hidden md:flex md:h-full md:w-2/3 flex-col justify-between'>
-              <div className='my-auto tracking-wider ml-20 text-black font-fjalla text-6xl drop-shadow-[15px_15px_15px_#000]'>
-                <h1 className='pl-3 text-5xl'>The</h1>
-                <h1>Feral Land</h1>
-                <h1 className='pl-4 pt-4'>Project</h1>
+            <div className='w-full hidden md:flex md:h-full md:w-2/3 flex-col justify-between'>
+              <div className='mt-20 tracking-wide ml-12 text-white font-fjalla text-6xl drop-shadow-[15px_15px_15px_#000]'>
+                <h1 className='pl-3 text-5xl'>Our Mission</h1>
               </div>
-            </div> */}
+            </div>
 
             <div className='flex flex-col h-full justify-evenly w-full md:w-1/3'>
               <div className='mx-auto relative w-44 h-44 md:w-60 md:h-60'>
