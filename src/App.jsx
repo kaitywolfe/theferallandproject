@@ -3,7 +3,7 @@ import logo from './assets/logo.png';
 function App() {
   return (
     <div className='bg-white min-h-lvh font-'>
-      <div className="flex flex-col mx-auto bg-white min-h-lvh max-w-[1300px]">
+      <div className="flex flex-col mx-auto bg-white min-h-lvh max-w-[1600px]">
 
         {/* First section */}
         <div className='relative w-full min-h-[500px] md:max-h-[720px] md:min-h-[720px]'>
@@ -22,7 +22,7 @@ function App() {
                 <div className=' w-44 h-44 absolute rounded-full bg-white blur-lg opacity-60' />
               </div>
               <p className='flex text-black px-1 mt-20 md:mt-0  sm:px-10 md:px-0 md:pr-10 text-balance text-center md:text-right'>
-                The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project is to charitably provide communities, institutions and wildlife with gardens, parks, green spaces, habitats and safe passageways. We strive to repurpose, steward or rewild feral lands, waste sites and over-paved places into hospitable environments where life&nbsp;will&nbsp;thrive.
+                The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project is to provide communities, institutions and wildlife with gardens, parks, green spaces, habitats and safe passageways. We strive to repurpose, steward or rewild feral lands, waste sites and over-paved places into hospitable environments where life&nbsp;will&nbsp;thrive.
               </p>
             </div>
           </div>
