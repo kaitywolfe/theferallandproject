@@ -58,18 +58,21 @@ function App() {
 
           {/* three sections */}
           <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-6 tracking-wide">
-            <div className="w-full md:w-1/3 text-center">
+            <div className="w-full md:text-xl md:w-1/3 text-center">
               <h3 className="text-xl mb-4">Community <span className='text-sm'>&</span> Allyship</h3>
-              <p className="text-base">We strive to create systems that benefit inhabitants from pollinators to people. We recognize that plants and animals, including humans, are allies in a grander scheme and should not be separated by the dualism of society vs. nature.
+              <div className="w-2/3 mx-auto h-0.5 bg-black my-2"></div>
+              <p className="text-lg">We strive to create systems that benefit inhabitants from pollinators to people. We recognize that plants and animals, including humans, are allies in a grander scheme and should not be separated by the dualism of society vs. nature.
               </p>
             </div>
             <div className="w-full md:w-1/3 text-center">
               <h3 className="text-xl mb-4">Sustainability <span className='text-sm'>&</span> Conservation</h3>
-              <p className="text-base">The Feral Land Project intends to preserve existing ecosystems where possible and to rehabilitate, revitalize and regenerate soil which contributes to our current well-being and acts as a gift to future generations and the world.</p>
+              <div className="w-2/3 mx-auto h-0.5 bg-black my-2"></div>
+              <p className="text-lg">The Feral Land Project intends to preserve existing ecosystems where possible and to rehabilitate, revitalize and regenerate soil which contributes to our current well-being and acts as a gift to future generations and the world.</p>
             </div>
             <div className="w-full md:w-1/3 text-center">
               <h3 className="text-xl mb-4">Participation <span className='text-sm'>&</span> Optimism</h3>
-              <p className="text-base">We value engagement, holding outside space for community gathering and for appreciating the greater system civilization resides within. Gardens and wild places not only provide us with food and beauty, but bring us hope and health.</p>
+              <div className="w-2/3 mx-auto h-0.5 bg-black my-2"></div>
+              <p className="text-lg">We value engagement, holding outside space for community gathering and for appreciating the greater system civilization resides within. Gardens and wild places not only provide us with food and beauty, but bring us hope and health.</p>
             </div>
           </div>
 
@@ -91,7 +94,7 @@ function App() {
                 <img className="w-24" src={logo} alt="The Feral Land Project Logo" />
                 <div>
                   <h3 className="text-xl font-semibold">The Feral Land Project</h3>
-                  <div className="w-full h-0.5 bg-black my-2"></div>
+                  <div className="w-full h-0.5 bg-black my-1"></div>
                   <p>P.O. Box 268 Nevada City, CA 95959</p>
                   <p>info@theferallandproject.org</p>
                 </div>
