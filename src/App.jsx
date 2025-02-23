@@ -21,7 +21,7 @@ function App() {
                 <img className='absolute w-44 h-44 md:w-60 md:h-60 z-10' src={logo} alt="The Feral Land Project Logo" />
                 <div className=' w-44 h-44 absolute rounded-full bg-white blur-lg opacity-60' />
               </div>
-              <p className='flex text-black px-1 mt-20 md:mt-0  sm:px-10 md:px-0 md:pr-10 text-balance text-center md:text-right'>
+              <p className='flex md:text-xl text-black px-1 mt-20 md:mt-0  sm:px-10 md:px-0 md:pr-10 text-balance text-center md:text-right'>
                 The purpose of The&nbsp;Feral&nbsp;Land&nbsp;Project is to provide communities, institutions and wildlife with gardens, parks, green spaces, habitats and safe passageways. We strive to repurpose, steward or rewild feral lands, waste sites and over-paved places into hospitable environments where life&nbsp;will&nbsp;thrive.
               </p>
             </div>
