@@ -37,8 +37,7 @@ function App() {
               Our Vision
             </h1>
             <p className='md:text-xl  pt-10 px-4 md:p-0 text-center md:text-left w-full h-full md:h-fit text-balance md:w-1/3 my-auto bg-white md:ml-10'>
-              The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
-            </p>
+              Along with conservation, rewilding, and stewardship, The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.            </p>
           </div >
           <div className='flex min-h-[500px] max-h-[500px] md:max-h-[720px] md:min-h-[720px] sepia-[30%] md:clip-right bg-[url("./assets/background-2.jpg")] bg-white text-black bg-cover bg-no-repeat bg-center' />
         </div>
