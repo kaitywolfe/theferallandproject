@@ -3,7 +3,7 @@ import logo from './assets/logo.png';
 function App() {
   return (
     <div className='bg-white min-h-lvh font-'>
-      <div className="flex flex-col mx-auto bg-white min-h-lvh max-w-[1600px]">
+      <div className="flex flex-col mx-auto bg-white min-h-lvh max-w-full">
 
         {/* First section */}
         <div className='relative w-full min-h-[500px] md:max-h-[720px] md:min-h-[720px]'>
@@ -27,7 +27,7 @@ function App() {
             </div>
           </div>
           {/* bg image */}
-          <div className="absolute w-full min-h-[300px] md:max-h-[720px] md:min-h-[720px] md:clip-arrow-left bg-[url('./assets/background.jpg')] bg-no-repeat  bg-cover sepia-[20%]" />
+          <div className="absolute w-full min-h-[300px] md:max-h-[720px] md:min-h-[720px] md:clip-arrow-left bg-[url('./assets/background.jpg')] bg-no-repeat bg-center bg-cover sepia-[20%]" />
         </div>
 
         {/* second section */}
