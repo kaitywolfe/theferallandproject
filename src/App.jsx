@@ -3,7 +3,7 @@ import logo from './assets/logo.png';
 function App() {
   return (
     <div className='bg-white min-h-lvh font-'>
-      <div className="flex flex-col mx-auto bg-white min-h-lvh max-w-[1600px]">
+      <div className="flex flex-col mx-auto bg-white min-h-lvh max-w-full">
 
         {/* First section */}
         <div className='relative w-full min-h-[500px] md:max-h-[720px] md:min-h-[720px]'>
@@ -27,7 +27,7 @@ function App() {
             </div>
           </div>
           {/* bg image */}
-          <div className="absolute w-full min-h-[300px] md:max-h-[720px] md:min-h-[720px] md:clip-arrow-left bg-[url('./assets/background.jpg')] bg-no-repeat  bg-cover sepia-[20%]" />
+          <div className="absolute w-full min-h-[300px] md:max-h-[720px] md:min-h-[720px] md:clip-arrow-left bg-[url('./assets/background.jpg')] bg-no-repeat bg-center bg-cover sepia-[20%]" />
         </div>
 
         {/* second section */}
@@ -37,8 +37,7 @@ function App() {
               Our Vision
             </h1>
             <p className='md:text-xl  pt-10 px-4 md:p-0 text-center md:text-left w-full h-full md:h-fit text-balance md:w-1/3 my-auto bg-white md:ml-10'>
-              The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.
-            </p>
+              Along with conservation, rewilding, and stewardship, The Feral Land Project envisions a world in which gardens and the act of gardening are recognized and implemented as ways to counteract some of our greatest societal and environmental challenges.            </p>
           </div >
           <div className='flex min-h-[500px] max-h-[500px] md:max-h-[720px] md:min-h-[720px] sepia-[30%] md:clip-right bg-[url("./assets/background-2.jpg")] bg-white text-black bg-cover bg-no-repeat bg-center' />
         </div>
