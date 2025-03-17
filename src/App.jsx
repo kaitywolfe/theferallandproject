@@ -84,19 +84,31 @@ function App() {
         {/* fifth */}
         <div className='flex max-h-[400px] min-h-[320px] clip-arrows sepia-[30%] bg-[url("./assets/background-4.jpg")] bg-cover bg-no-repeat bg-bottom' />
 
-        {/* Footer */}
+  {/* Footer */}
         <footer className="bg-white text-black pt-8">
           <div className="container mx-auto px-6 md:px-12 lg:px-24">
 
-            <div className="flex flex-col items-center justify-between space-y-4 md:space-y-0">
-              <div className="flex items-center space-x-4">
-                <img className="w-24" src={logo} alt="The Feral Land Project Logo" />
-                <div>
-                  <h3 className="text-xl font-semibold">The Feral Land Project</h3>
-                  <div className="w-full h-0.5 bg-black my-1"></div>
-                  <p>P.O. Box 268 Nevada City, CA 95959</p>
-                  <p>info@theferallandproject.org</p>
+            <div className="flex center justify-between">
+              {/* logo group */}
+              <div className="flex flex-col items-center justify-between space-y-4 md:space-y-0">
+                <div className="flex items-center space-x-4">
+                  <img className="w-24" src={logo} alt="The Feral Land Project Logo" />
+                  <div>
+                    <h3 className="text-xl font-semibold">The Feral Land Project</h3>
+                    <div className="w-full h-0.5 bg-black my-1"></div>
+                    <p>P.O. Box 268 Nevada City, CA 95959</p>
+                    <p>info@theferallandproject.org</p>
+                  </div>
                 </div>
+              </div>
+
+              {/* paypal button */}
+              <div className="">
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                  <input type="hidden" name="" value="Q3RAAD3KGJ4JC" />
+                  <input className="flex mx-auto " type="image" src="https://pics.paypal.com/00/s/Y2YzZWE0OWMtMGM0Yy00M2RhLWJkMGUtOGQyNThlYzA4Yzc4/file.PNG" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
               </div>
             </div>
             <h2 className="text-center text-md font-light mt-8">
