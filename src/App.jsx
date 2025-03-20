@@ -88,7 +88,7 @@ function App() {
         <footer className="bg-white text-black pt-8">
           <div className="container mx-auto px-6 md:px-12 lg:px-24">
 
-            <div className="flex center justify-between md-flex-row">
+            <div className="flex flex-col center items-center space-y-6 justify-between md:flex-row">
               {/* logo group */}
               <div className="flex flex-col items-center justify-between space-y-4 md:space-y-0">
                 <div className="flex items-center space-x-4">
@@ -103,7 +103,7 @@ function App() {
               </div>
 
               {/* paypal button */}
-              <div >
+              <div className="">
                 <form action="https://www.paypal.com/donate" method="post" target="_top">
                   <input type="hidden" name="hosted_button_id" value="Q3RAAD3KGJ4JC" />
                   <input type="image" src="https://pics.paypal.com/00/s/Y2YzZWE0OWMtMGM0Yy00M2RhLWJkMGUtOGQyNThlYzA4Yzc4/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
